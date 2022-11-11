@@ -37,3 +37,16 @@ git checkout (#commit) bio.txt
 
 git checkout master bio.txt
 "Volver a ver la version up del archivo"
+
+git clone (url)
+"clone"
+
+git fetch 
+"trae los archivos pero no los junta"
+git merge 
+"los junta"
+git pull 
+"fetch + pull"
+
+git push 
+"sube los cambio al repositorio"
