@@ -3,7 +3,12 @@ bio.txt >> git add bio.txt >> up
 untracket // tracked // save
 
 git rm bio.txt
-"quitar el archivo del staget"
+"quitar el archivo del staging"
+git rm --cached 
+"quita todos los archivos del repositorio y staging(untracket) pero mantienen en Disco"
+git rm --forced 
+"Elimina del disco pero mantienen en un commit anterior"
+
 
 git log bio.txt
 "Muestra el historial de ese archivo especifico"
@@ -17,8 +22,18 @@ git reset soft
 git reset hard
 "Volver a la version anterior totalmente"
 
+git reset HEAD 
+"Saca los archivos de staging"
+
 
 git merge 
 o----o----o----o----o--o
        \           /
         \o---o---o/
+
+
+git checkout (#commit) bio.txt
+"Ver una version anterior de un archivo"
+
+git checkout master bio.txt
+"Volver a ver la version up del archivo"
