@@ -1,0 +1,24 @@
+directorio // staging // repositorio
+bio.txt >> git add bio.txt >> up
+untracket // tracked // save
+
+git rm bio.txt
+"quitar el archivo del staget"
+
+git log bio.txt
+"Muestra el historial de ese archivo especifico"
+
+git diff (#commit) (#commit)
+"Que cambio con respecto a los dos"
+
+git reset soft
+"Volver a la version anterior pero matiene cambios en staging"
+
+git reset hard
+"Volver a la version anterior totalmente"
+
+
+git merge 
+o----o----o----o----o--o
+       \           /
+        \o---o---o/
