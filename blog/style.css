@@ -16,3 +16,15 @@ h1 {
     height: 250px;
     border: 1px solid black;
 }
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(69, 69, 69);
+    margin: 10px  -10px ;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
