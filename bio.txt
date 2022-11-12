@@ -55,3 +55,6 @@ git push
 master o---o---o---o---o
            |       |
 header     o---o---o
+
+git merge (rama)
+"Desde la rama master traigo la otra"
