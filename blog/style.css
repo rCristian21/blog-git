@@ -6,14 +6,23 @@ h1 {
 #divbox{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 250px;
     align-items: center;
     justify-content: center;
+
 }
-#divbox div {
+#divbox #divv {
     width: 90%;
     height: 250px;
     border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conte{
+    width: 100%;
+    height: 25px;
+    margin: 10px 0px;
+    background-color:brown;
 }
 footer{
     display: flex;
@@ -27,3 +36,4 @@ li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
