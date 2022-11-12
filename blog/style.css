@@ -3,6 +3,12 @@
     margin: -10px;
     padding: 10px;
 }
+#header ul, .head{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
 h1 {
     text-align: center;
     color: red;
@@ -35,9 +41,10 @@ footer{
     background-color: rgb(69, 69, 69);
     margin: 10px  -10px ;
 }
-li a{
+li {
     list-style: none;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    margin: 2px -55px;
 }
 
