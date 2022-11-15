@@ -58,3 +58,22 @@ header     o---o---o
 
 git merge (rama)
 "Desde la rama master traigo la otra"
+
+"Cuando se quiere subir un repositorio local a otro repositorio con distintos commits"
+git pull origin master --allow-unrelated-histories
+
+/////////////////////////////////////
+Tag y versiones
+
+Salida grafica comprimida
+git log --all --graph --decorate --oneline
+gittree
+
+git tag -a v0.1 -m "Primeras clases" (#commit)7ae7b1f
+"Crear un tag"
+pull and (push origin --tags)
+
+git tag -d v0.1
+"Borrar un tag"
+pull and (push origin --tags)
+git push origin :refs/tags/dormido
