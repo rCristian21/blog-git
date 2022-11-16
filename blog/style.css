@@ -45,6 +45,9 @@ footer{
     background-color: rgb(69, 69, 69);
     margin: 0 -8px ;
 }
+h3{
+    height: 0px;
+}
 li {
     list-style: none;
     text-decoration: none;
