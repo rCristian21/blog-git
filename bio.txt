@@ -2,6 +2,9 @@
 
 "master 2"
 
+
+
+
 directorio // staging // repositorio
 bio.txt >> git add bio.txt >> up
 untracket // tracked // save
