@@ -100,3 +100,5 @@ borrar
 
 
 "Cherry pick"
+git cherry-pick (#commit)
+traer un commit 
