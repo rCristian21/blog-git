@@ -102,3 +102,9 @@ borrar
 "Cherry pick"
 git cherry-pick (#commit)
 traer un commit 
+
+
+"Cuando todo esta reventado"
+git reflog 
+git reset --hard (#commit)
+
