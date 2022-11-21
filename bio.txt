@@ -84,3 +84,19 @@ git tag -d v0.1
 "Borrar un tag"
 pull and (push origin --tags)
 git push origin :refs/tags/dormido
+
+"cambios no guardados, pero nesecito cambiar de rama"
+git stash 
+"xxxx"
+git stash pop
+"restaurar"
+
+
+git clean --dry-run 
+"ver lo que se va a borrar"
+"git clean -f"
+borrar
+"Solo borra archivos tracked, no carpetas"
+
+
+"Cherry pick"
